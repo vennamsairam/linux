@@ -1,9 +1,9 @@
 # linux
 
 ```
-uptime - it shows server uptime and load of server
-mkdir - it will create directory
-ping  - It will check if ip address is responding
+uptime     - it shows server uptime and load of server
+mkdir      - it will create directory
+ping       - It will check if ip address is responding
 yum update - it install all packages
 ls         - The most frequently used command in Linux to list directories
 pwd        - Print working directory command in Linux
