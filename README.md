@@ -1,6 +1,7 @@
 # linux
 
 ```
+uptime - it shows server uptime and load of server
 mkdir - it will create directory
 ping  - It will check if ip address is responding
 yum update -it install all packages
@@ -24,9 +25,7 @@ tar - Command to extract and compress files in Linux
 grep - Search for a string within an output
 head - Return the specified number of lines from the top
 tail - Return the specified number of lines from the bottom
-diff - Find the difference between two files
-cmp - Allows you to check if two files are identical
-comm - Combines the functionality of diff and cmp
+vimdiff - Find the difference between two files
 sort - Linux command to sort the content of a file while outputting
 export - Export environment variables in Linux
 zip - Zip files in Linux
@@ -40,6 +39,7 @@ mount - Mount file systems in Linux
 chmod - Command to change file permissions
 chown - Command for granting ownership of files or folders
 ifconfig - Display network interfaces and IP addresses
+ip a s - to show Ipaddress
 traceroute - Trace all the network hops to reach the destination
 wget - Direct download files from the internet
 ufw - Firewall command
@@ -50,10 +50,14 @@ cal - View a command-line calendar
 alias - Create custom shortcuts for your regularly used commands
 dd - Majorly used for creating bootable USB sticks
 whereis - Locate the binary, source, and manual pages for a command
-whatis - Find what a command is used for
 top - View active processes live with their system usage
 useradd and usermod - Add new user or change existing users data
 passwd - Create or update passwords for existing users
+grep - to filter text
+awk - filter bit advanced
+git clone - cloning the repository
+git commit - to commit the repository
+
 
 
 ```
