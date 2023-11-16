@@ -1,3 +1,5 @@
+'''
+
 Update the Package List:
 apt update
 2. Install Necessary Dependencies:
@@ -51,7 +53,7 @@ sudo systemctl stop docker
 sudo systemctl start docker
 sudo systemctl restart docker
 Remember to refer to the official Docker documentation for the most up-to-date instructions: Docker Installation on Ubuntu.
-```
+
 [root@stack01 ~]# docker run -itd --name web-server -p 9999:80 nirulabs/tea
 Unable to find image 'nirulabs/tea:latest' locally
 latest: Pulling from nirulabs/tea
