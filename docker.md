@@ -3,28 +3,21 @@
 Update the Package List:
 apt update
 2. Install Necessary Dependencies:
-bash
-Copy code
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
+ apt install apt-transport-https ca-certificates curl software-properties-common
 3. Add Docker's GPG Key:
-bash
-Copy code
+
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 4. Set up the Stable Docker Repository:
-bash
-Copy code
+
 echo "deb [signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 5. Update the Package List Again:
-bash
-Copy code
+
 sudo apt update
 6. Install Docker:
-bash
-Copy code
+
 sudo apt install docker-ce docker-ce-cli containerd.io
 7. Verify Docker Installation:
-bash
-Copy code
+
 sudo docker run hello-world
 This command downloads a test image and runs it in a container. If everything is set up correctly, you should see a "Hello from Docker!" message.
 
