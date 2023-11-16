@@ -1,4 +1,56 @@
+Update the Package List:
+apt update
+2. Install Necessary Dependencies:
+bash
+Copy code
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+3. Add Docker's GPG Key:
+bash
+Copy code
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+4. Set up the Stable Docker Repository:
+bash
+Copy code
+echo "deb [signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+5. Update the Package List Again:
+bash
+Copy code
+sudo apt update
+6. Install Docker:
+bash
+Copy code
+sudo apt install docker-ce docker-ce-cli containerd.io
+7. Verify Docker Installation:
+bash
+Copy code
+sudo docker run hello-world
+This command downloads a test image and runs it in a container. If everything is set up correctly, you should see a "Hello from Docker!" message.
 
+8. Manage Docker as a Non-Root User (Optional):
+By default, Docker requires root privileges. If you want to run Docker commands without sudo, you can add your user to the docker group:
+
+bash
+Copy code
+sudo usermod -aG docker $USER
+Log out and log back in, or run the following command to apply the group changes:
+
+bash
+Copy code
+newgrp docker
+9. Check Docker Version:
+bash
+Copy code
+docker --version
+This should display the installed Docker version.
+
+That's it! You've successfully installed Docker on Ubuntu. Keep in mind that the Docker daemon will start automatically after installation. If you ever need to stop or restart it, you can use:
+
+bash
+Copy code
+sudo systemctl stop docker
+sudo systemctl start docker
+sudo systemctl restart docker
+Remember to refer to the official Docker documentation for the most up-to-date instructions: Docker Installation on Ubuntu.
 ```
 [root@stack01 ~]# docker run -itd --name web-server -p 9999:80 nirulabs/tea
 Unable to find image 'nirulabs/tea:latest' locally
