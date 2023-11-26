@@ -61,6 +61,13 @@ git commit - to commit the repository
 
 
 
+## Connecting to servers
+Linux - ssh service 22
+Windows - RDP 3389
+Azure - ssh -i xyx.pem 192.168.9.100
+
+
+
 
 
 
