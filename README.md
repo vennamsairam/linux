@@ -201,11 +201,20 @@ Answer: I would use a live Linux distribution to boot into the system, mount the
 
 
 
+## Server New Request
+  1. install centOS 7            - 
+  2. hostname orac002.vennam.com  - hostnamectl set-hostname <servername>
+  3. IPAddress 192.168.29.29
+  4. user: oracle-db  - uasedall
 
-
-
-
-
-
-
+## Required packages.
+  1. dns utils      -  yum install bind-utils -y
+  2. Network Tools  -  yum install net-tools -y
+  3. docker
+  4. git
+  6. prometheus client.
+  7. nodejs     - 
+  8. java       - 
+  9. python     - https://github.com/jniranjanreddy/linux/blob/main/python-3-10.md
+  10 nfs-server - https://dev.to/prajwalmithun/setup-nfs-server-client-in-linux-and-unix-27id
 ```
