@@ -1,4 +1,4 @@
-how to install python 3.10
+#how to install python 3.10
 
 yum update
 
