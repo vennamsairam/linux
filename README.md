@@ -55,8 +55,45 @@ useradd and usermod - Add new user or change existing users data
 passwd - Create or update passwords for existing users
 grep - to filter text
 awk - filter bit advanced
-git clone - cloning the repository
+find - find / -name xyz-001.txt
+nohup -
+```
+
+## Filesystems:
+```
+df -h
+
+[root@dev ~]# df -h
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs             3.8G     0  3.8G   0% /dev
+tmpfs                3.8G     0  3.8G   0% /dev/shm
+tmpfs                3.8G   18M  3.8G   1% /run
+tmpfs                3.8G     0  3.8G   0% /sys/fs/cgroup
+/dev/mapper/cs-root   62G  7.6G   54G  13% /
+/dev/mapper/cs-home   30G  258M   30G   1% /home
+/dev/sda1           1014M  425M  590M  42% /boot
+tmpfs                770M   16K  770M   1% /run/user/42
+tmpfs                770M  8.0K  770M   1% /run/user/0
+
+df -i
+mount
+umount
+```
+## LVM
+
+
+
+
+git clone  - cloning the repository
 git commit - to commit the repository
+
+Digfferent Git providers
+github     - Microsoft
+gitlab     - 
+attlassian - bitbucket
+Azure      - Azure repos
+AWS        -
+Gcp        -
 
 
 
@@ -67,11 +104,16 @@ Windows - RDP 3389
 Azure - ssh -i xyx.pem 192.168.9.100
 
 
+Most Developments
+
+1. Java
+2. Node
+3. Python
+4. Asp .Net
 
 
 
-
-
+```
 /etc/passwd:
 Contains user account information, including usernames, user IDs, home directories, and default shells.
 
