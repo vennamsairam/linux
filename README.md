@@ -259,4 +259,6 @@ Answer: I would use a live Linux distribution to boot into the system, mount the
   8. python             - https://github.com/jniranjanreddy/linux/blob/main/python-3-10.md
   9 nfs-server          - https://dev.to/prajwalmithun/setup-nfs-server-client-in-linux-and-unix-27id
   10. install nginx server - https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-7
+  11. install mysql server- https://hevodata.com/learn/installing-mysql-on-ubuntu-20-04/
+  12.install AZcli- curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
