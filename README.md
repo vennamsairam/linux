@@ -56,7 +56,8 @@ passwd - Create or update passwords for existing users
 grep - to filter text
 awk - filter bit advanced
 find - find / -name xyz-001.txt
-nohup -
+nohup -to execute command in the background
+netstat- to check the open ports.
 ```
 
 ## Filesystems:
