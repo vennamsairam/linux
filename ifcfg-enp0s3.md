@@ -18,4 +18,9 @@ ONBOOT=yes
 IPADDR=192.168.29.12
 NETMASK=255.255.255.0
 GATEWAY=192.168.29.1
+
+
+
 ```
+![image](https://github.com/vennamsairam/linux/assets/141803908/c05b81c9-27d9-4a46-8435-86f769a87e26)
+
