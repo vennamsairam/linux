@@ -244,6 +244,88 @@ Answer: I would use a live Linux distribution to boot into the system, mount the
 
 
 
+
+DOCKER Commands.
+
+1.Install Docker on Ubuntu:
+ apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+2. Remove all Docker containers:
+   docker rm $(docker ps -a -q)
+
+3. Check container logs:
+   docker logs <container_id>
+
+4. Limit CPU and memory for a container:
+   docker run --cpu=2 --memory=512m my_container
+
+5. Stop all Docker containers:
+   docker stop $(docker ps -q)
+
+6. Remove all Docker containers (after stopping):
+   docker rm $(docker ps -a -q)
+
+7. Push an image to Docker Hub:
+   docker push username/repository:tag
+
+8. Pull an image from Docker Hub:
+   docker pull username/repository:tag
+
+9. Create a Docker network:
+   docker network create my_network
+
+10. List Docker networks:
+    docker network ls
+
+11. Inspect a Docker network:
+    docker network inspect my_network
+
+12. Build a Docker image:
+    docker build -t my_image:tag .
+
+13. Run a Docker container:
+    docker run -d --name my_containermy_image:tag
+
+
+14. Run a Docker container with environment variables:
+    docker run -e MY_VARIABLE=value my_container
+
+15. Create a Docker volume:
+    docker volume create my_volume
+17. List Docker volumes:
+    docker volume ls
+
+18. Inspect a Docker volume:
+    docker volume inspect my_volume
+
+19. Check Docker version:
+    docker version
+
+20. Start Docker Swarm:
+    docker swarm init
+
+21. Deploy a service in Docker Swarm:
+    docker service create --name my_servicemy_image:tag
+
+22. Scale a service in Docker Swarm:
+    docker service scale my_service=3
+
+23. Update a Docker service:
+    docker service update --image new_image:tagmy_service
+
+24. Inspect Docker service:
+    docker service inspect my_service
+
+25. List Docker images:
+    docker images
+
+26. Search for Docker images on Docker Hub:
+    docker search image_name
+
+
+
+
 ## Server New Request
   1. install centOS 7            - 
   2. hostname orac002.vennam.com  - hostnamectl set-hostname <servername>
