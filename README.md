@@ -107,10 +107,10 @@ Azure - ssh -i xyx.pem 192.168.9.100
 
 Most Developments
 
-1. Java
-2. Node
-3. Python
-4. Asp .Net
+1. Java - maven - maven build
+2. Node/React   - npm install
+3. Python       - pip install -r 
+4. Asp .Net     -  
 
 
 
