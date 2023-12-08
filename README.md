@@ -52,12 +52,12 @@ dd        - Majorly used for creating bootable USB sticks
 whereis   - Locate the binary, source, and manual pages for a command
 top       -  View active processes live with their system usage
 useradd and usermod - Add new user or change existing users data
-passwd - Create or update passwords for existing users
-grep - to filter text
-awk - filter bit advanced
-find - find / -name xyz-001.txt
-nohup -to execute command in the background
-netstat- to check the open ports.
+passwd  - Create or update passwords for existing users
+grep    - to filter text
+awk     - filter bit advanced
+find    - find / -name xyz-001.txt
+nohup   - to execute command in the background
+netstat - to check the open ports.
 ```
 
 ## Filesystems:
@@ -81,15 +81,18 @@ mount
 umount
 ```
 ## LVM
+```
 fdisk -l  - 
 pvdisplay -
 lvdisplay - 
 vgdisplay - 
+```
 
-
-
+## git
+```
 git clone  - cloning the repository
 git commit - to commit the repository
+
 
 Digfferent Git providers
 github     - Microsoft
@@ -98,23 +101,24 @@ attlassian - bitbucket
 Azure      - Azure repos
 AWS        -
 Gcp        -
-
+```
 
 
 
 ## Connecting to servers
+```
 Linux - ssh service 22
 Windows - RDP 3389
 Azure - ssh -i xyx.pem 192.168.9.100
+```
 
-
-Most Developments
-
+## Most Developments
+```
 1. Java - maven - maven build
 2. Node/React   - npm install
 3. Python       - pip install -r 
 4. Asp .Net     -  
-
+```
 
 ```
 /etc/passwd:
