@@ -41,16 +41,16 @@ chown      - Command for granting ownership of files or folders
 ifconfig   - Display network interfaces and IP addresses
 ip a s     - to show Ipaddress
 traceroute - Trace all the network hops to reach the destination
-wget      - Direct download files from the internet
-ufw       - Firewall command
-iptables  - Base firewall for all other firewall utilities to interface with
+wget       - Direct download files from the internet
+ufw        - Firewall command
+iptables   - Base firewall for all other firewall utilities to interface with
 apt, pacman, yum, rpm - Package managers depending on the distro
-sudo     - Command to escalate privileges in Linux
-cal      - View a command-line calendar
-alias    - Create custom shortcuts for your regularly used commands
-dd - Majorly used for creating bootable USB sticks
-whereis - Locate the binary, source, and manual pages for a command
-top - View active processes live with their system usage
+sudo      - Command to escalate privileges in Linux
+cal       - View a command-line calendar
+alias     - Create custom shortcuts for your regularly used commands
+dd        - Majorly used for creating bootable USB sticks
+whereis   - Locate the binary, source, and manual pages for a command
+top       -  View active processes live with their system usage
 useradd and usermod - Add new user or change existing users data
 passwd - Create or update passwords for existing users
 grep - to filter text
@@ -81,7 +81,10 @@ mount
 umount
 ```
 ## LVM
-
+fdisk -l  - 
+pvdisplay -
+lvdisplay - 
+vgdisplay - 
 
 
 
@@ -111,7 +114,6 @@ Most Developments
 2. Node/React   - npm install
 3. Python       - pip install -r 
 4. Asp .Net     -  
-
 
 
 ```
@@ -175,9 +177,6 @@ Configuration file for the Samba server, which allows Linux systems to share fil
 /etc/nsswitch.conf:
 Configures the Name Service Switch, determining the order in which different data sources (files, DNS, NIS) are queried for system information.
 
-
-
-
 scenario based interview questions
 
 Scenario: A user reports being unable to log in. How would you troubleshoot this issue?
@@ -240,9 +239,6 @@ Answer: I would use tools like smartctl to check the SMART status of the drives.
 
 Scenario: A user accidentally deletes important system files, leading to a non-bootable system. How would you recover the system?
 Answer: I would use a live Linux distribution to boot into the system, mount the root partition, and restore the deleted files from a backup. If no backup is available, I might attempt to reinstall critical packages or restore missing system files manually.
-
-
-
 
 
 DOCKER Commands.
@@ -340,8 +336,12 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
   6. prometheus client  - https://github.com/jniranjanreddy/monitoring/blob/main/node-exporter.sh
   7. nodejs             - https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-a-centos-7-server
   8. python             - https://github.com/jniranjanreddy/linux/blob/main/python-3-10.md
-  9 nfs-server          - https://dev.to/prajwalmithun/setup-nfs-server-client-in-linux-and-unix-27id
-  10. install nginx server - https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-7
-  11. install mysql server- https://hevodata.com/learn/installing-mysql-on-ubuntu-20-04/
-  12.install AZcli- curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+  9. nfs-server         - https://dev.to/prajwalmithun/setup-nfs-server-client-in-linux-and-unix-27id
+  10. nginx server      - https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-7
+  11. mysql server      - https://hevodata.com/learn/installing-mysql-on-ubuntu-20-04/
+  12. Az-cli-           - curl - sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+  13. postgresql        -
+  14. sonarqube         - 
+  15. 
+
 ```
