@@ -321,7 +321,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 
 
-
 ## Server New Request
   1. install centOS 7            - 
   2. hostname orac002.vennam.com  - hostnamectl set-hostname <servername>
@@ -342,6 +341,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
   12. Az-cli-           - curl - sL https://aka.ms/InstallAzureCLIDeb | sudo bash
   13. postgresql        -
   14. sonarqube         - 
-  15. 
+  15. maven             - 
 
 ```
