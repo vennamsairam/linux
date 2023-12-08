@@ -120,6 +120,7 @@ Azure - ssh -i xyx.pem 192.168.9.100
 4. Asp .Net     -  
 ```
 
+## Unix Importanat
 ```
 /etc/passwd:
 Contains user account information, including usernames, user IDs, home directories, and default shells.
@@ -243,9 +244,9 @@ Answer: I would use tools like smartctl to check the SMART status of the drives.
 
 Scenario: A user accidentally deletes important system files, leading to a non-bootable system. How would you recover the system?
 Answer: I would use a live Linux distribution to boot into the system, mount the root partition, and restore the deleted files from a backup. If no backup is available, I might attempt to reinstall critical packages or restore missing system files manually.
+```
 
-
-DOCKER Commands.
+## DOCKER Commands.
 
 1.Install Docker on Ubuntu:
  apt-get update
