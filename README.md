@@ -1,4 +1,4 @@
-# linux
+# Linux Basic Commands.
 
 ```
 uptime     - it shows server uptime and load of server
@@ -327,12 +327,14 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 
 ## Server New Request
+```
   1. install centOS 7            - 
   2. hostname orac002.vennam.com  - hostnamectl set-hostname <servername>
   3. IPAddress        - 192.168.29.29
   4. user: oracle-db  - uasedall
-
+```
 ## Required packages.
+```
   1. dns utils          - yum install bind-utils -y
   2. Network Tools      - yum install net-tools -y
   3. docker             - https://docs.docker.com/engine/install/centos/
