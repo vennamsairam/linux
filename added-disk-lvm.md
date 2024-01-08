@@ -1,3 +1,4 @@
+## add disk in virtual disk
 ```
 root@orac002 ~ # lsblk
 NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
